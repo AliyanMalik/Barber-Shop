@@ -9,7 +9,7 @@
   margin-top: 90px;
   height: 600px;
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,7 @@
   height: 250px;
   width: 270px;
   margin-right: 50px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .card {
@@ -26,6 +26,6 @@
   box-shadow: 0 35px 40px #9aa7bd;
   height: 420px;
   width: 300px;
-  border: 2px solid black;
-  margin-right: 50px;
+  /* border: 2px solid black; */
+  margin-right: 60px;
 }

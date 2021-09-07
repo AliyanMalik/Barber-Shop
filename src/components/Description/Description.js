@@ -10,8 +10,7 @@ const Description = (props) => {
         totam quisquam modi esse ut similique aperiam quam mollitia sint eos,
         neque, commodi cum, vitae blanditiis! Repellendus consequatur aut culpa
         debitis minima asperiores nostrum repudiandae nihil dolor a, ipsum alias
-        numquam. Necessitatibus, quo nemo culpa sapiente officiis veritatis
-        minima sed!
+        numquam.
       </p>
       <div className="footer">
         {props.footer1}
