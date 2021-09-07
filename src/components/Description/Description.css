@@ -1,0 +1,25 @@
+.descriptionContainer {
+  width: 400px;
+  border: 2px solid black;
+  flex: 4;
+}
+
+.heading {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #d9a259;
+  letter-spacing: 10px;
+}
+
+.title {
+  font-family: "poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 640;
+}
+
+.paragraph {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  color: #999999;
+}
