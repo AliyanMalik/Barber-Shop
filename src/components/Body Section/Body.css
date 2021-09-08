@@ -1,15 +1,14 @@
 .bodyContainer {
-  height: 1200px;
+  min-height: 1500px;
   width: 100%;
-  /* background-color: rgb(199, 139, 139);
-  border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .introduce {
   margin-top: 90px;
   height: 600px;
   width: 100%;
-  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
 }
@@ -18,14 +17,49 @@
   height: 250px;
   width: 270px;
   margin-right: 50px;
-  /* border: 2px solid black; */
 }
 
 .card {
   background-color: #dadada;
   box-shadow: 0 35px 40px #9aa7bd;
-  height: 420px;
-  width: 300px;
-  /* border: 2px solid black; */
+  height: 555px;
+  width: 449px;
   margin-right: 60px;
+}
+
+.arrivals {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ba {
+  height: 240px;
+  width: 250px;
+}
+
+.brush {
+  height: 520px;
+  width: 350px;
+  margin-top: 20px;
+  margin-right: 80px;
+}
+
+.next {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 1.5px;
+  left: 99px;
+}
+
+.imageContainer {
+  height: 600px;
+  background-image: url("../../assets/section.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #707070;
 }
