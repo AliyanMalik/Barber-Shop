@@ -1,18 +1,18 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import Product from "../../assets/Product.jpg";
+import Product1 from "../../assets/Product4.PNG";
+import Product2 from "../../assets/Product2.png";
+import Product3 from "../../assets/Product3.PNG";
+import Product4 from "../../assets/Product4.PNG";
 import "./Carousel.css";
 
 const ProductCarousel = () => {
-  const imageStyle = {
-    margin: "0 50px",
-  };
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 4, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -41,31 +41,67 @@ const ProductCarousel = () => {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
     >
-      <div style={imageStyle}>
-        <img src={Product} alt="product"></img>
-        <p className="productDescription">Kent Grooming Brush</p>
-        <p className="productPrice">$35.99</p>
+      <div className="firstProduct">
+        <img src={Product1} alt="product"></img>
+        <div className="details">
+          <p className="productDescription">Chrome Shaving Bowl</p>
+          <p className="productPrice">$21.57</p>
+        </div>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="secondProduct">
+        <img src={Product2} alt="product" className="product"></img>
+        <p className="productDescription">Nevilla Moustache Wax</p>
+        <p className="productPrice">$18.99</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="thirdProduct">
+        <img src={Product3} alt="product" className="product"></img>
+        <p className="productDescription">Men's Beard Grooming Kit</p>
+        <p className="productPrice">$26.79</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="fourthProduct">
+        <img src={Product4} alt="product" className="product"></img>
+        <p className="productDescription">Chrome Shaving Bowl</p>
+        <p className="productPrice">$21.57</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="firstProduct">
+        <img src={Product2} alt="product"></img>
+        <p className="productDescription">Nevilla Moustache Wax</p>
+        <p className="productPrice">$18.99</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="secondProduct">
+        <img src={Product3} alt="product" className="product"></img>
+        <p className="productDescription">Men's Beard Grooming Kit</p>
+        <p className="productPrice">$26.79</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="thirdProduct">
+        <img src={Product4} alt="product" className="product"></img>
+        <p className="productDescription">Chrome Shaving Bowl</p>
+        <p className="productPrice">$21.57</p>
       </div>
-      <div style={imageStyle}>
-        <img src={Product} alt="product" className="product"></img>
+      <div className="fourthProduct">
+        <img src={Product1} alt="product" className="product"></img>
+        <p className="productDescription">Chrome Shaving Bowl</p>
+        <p className="productPrice">$21.57</p>
+      </div>
+      <div className="firstProduct">
+        <img src={Product2} alt="product"></img>
+        <p className="productDescription">Nevilla Moustache Wax</p>
+        <p className="productPrice">$18.99</p>
+      </div>
+      <div className="secondProduct">
+        <img src={Product1} alt="product" className="product"></img>
+        <p className="productDescription">Chrome Shaving Bowl</p>
+        <p className="productPrice">$21.57</p>
+      </div>
+      <div className="thirdProduct">
+        <img src={Product3} alt="product" className="product"></img>
+        <p className="productDescription">Men's Beard Grooming Kit</p>
+        <p className="productPrice">$26.79</p>
+      </div>
+      <div className="fourthProduct">
+        <img src={Product4} alt="product" className="product"></img>
+        <p className="productDescription">Chrome Shaving Bowl</p>
+        <p className="productPrice">$21.57</p>
       </div>
     </Carousel>
   );
