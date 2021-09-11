@@ -2,7 +2,7 @@ import React from "react";
 import Description from "../Description/Description";
 import Mr from "../../assets/mr.png";
 import Ba from "../../assets/ba.png";
-import Brush from "../../assets/Brush.png";
+import Brush from "../../assets/Brush.PNG";
 import Bara from "../../assets/mr.bara.PNG";
 import Next from "../../assets/next.svg";
 
