@@ -45,3 +45,7 @@
 .productDescription:hover {
   color: #d9a259;
 }
+
+.react-multiple-carousel__arrow {
+  z-index: 999;
+}

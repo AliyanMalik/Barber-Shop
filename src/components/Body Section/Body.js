@@ -21,7 +21,6 @@ const Body = () => {
             title="Never Ask A Barber If You Need A Haircut"
             footer1="LoganCee - "
             footer2="Boss at Mr.Bara"
-            flex="4"
             className="hide"
           />
         </div>
