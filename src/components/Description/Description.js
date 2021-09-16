@@ -3,7 +3,7 @@ import "./Description.css";
 const Description = (props) => {
   return (
     <div
-      className="descriptionContainer"
+      className="discriptionContainer"
       style={{
         flex: `${props.flex}`,
         marginLeft: `${props.margin}`,
