@@ -12,12 +12,12 @@ const LandingPage = () => {
   return (
     <React.Fragment>
       <div className="container">
-        {/* <Hero /> */}
+        <Hero />
         <Body />
-        {/* <Products />
+        <Products />
         <Discount />
         <Portfolio />
-        <Footer /> */}
+        <Footer />
       </div>
     </React.Fragment>
   );

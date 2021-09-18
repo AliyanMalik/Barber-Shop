@@ -278,12 +278,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 0px;
+    margin-left: -310px;
+    margin-top: 300px;
   }
 
   .ba {
     height: 170px;
     width: 190px;
+    margin-left: -400px;
   }
 
   .brush {
@@ -292,6 +294,7 @@
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 0px;
+    display: none;
   }
 
   .next {
