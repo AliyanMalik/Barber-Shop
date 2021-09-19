@@ -64,23 +64,24 @@
   background-color: #707070;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .bodyContainer {
     min-height: 1500px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: -100px;
   }
 
   .introduce {
-    margin-top: 60px;
+    margin-top: 50px;
     height: 600px;
     display: flex;
     justify-content: space-between;
   }
 
   .mr {
-    height: 150px;
-    width: 170px;
+    height: 170px;
+    width: 190px;
   }
 
   .card {
@@ -89,12 +90,44 @@
     height: 435px;
     width: 329px;
     margin-right: 60px;
-    margin-left: -50px;
+    margin-left: -10px;
   }
 
   .arrivals {
     height: 600px;
-    width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+
+  .ba {
+    height: 170px;
+    width: 190px;
+  }
+
+  .brush {
+    height: 400px;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+
+  .next {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 1.1px;
+    left: 99px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .arrivals {
+    height: 600px;
+    width: 130%;
     display: flex;
     justify-content: space-between;
     margin-left: -270px;
@@ -108,9 +141,9 @@
   .brush {
     height: 400px;
     width: 250px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 80px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 
   .next {
@@ -123,50 +156,145 @@
   }
 }
 @media (max-width: 900px) {
-  .bodyContainer {
-    min-height: 1500px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .introduce {
-    margin-top: 40px;
+    margin-top: 90px;
     height: 500px;
-    display: flex;
-    justify-content: space-between;
   }
 
   .mr {
-    height: 150px;
-    width: 170px;
+    height: 170px;
+    width: 190px;
+    margin-right: 50px;
   }
 
   .card {
     background-color: #dadada;
     box-shadow: 0 35px 40px #9aa7bd;
-    height: 435px;
-    width: 329px;
-    margin-right: 30px;
-    margin-left: -50px;
+    height: 315px;
+    width: 229px;
+  }
+  .arrivals {
+    height: 500px;
+    display: flex;
+  }
+
+  .ba {
+    height: 170px;
+    width: 190px;
+  }
+
+  .brush {
+    height: 300px;
+    width: 180px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .next {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 1.1px;
+    left: 99px;
+  }
+}
+@media (max-width: 770px) {
+  .introduce {
+    margin-top: 70px;
+    height: 550px;
+  }
+
+  .mr {
+    height: 160px;
+    width: 180px;
+  }
+
+  .card {
+    background-color: #dadada;
+    box-shadow: 0 35px 40px #9aa7bd;
+    height: 315px;
+    width: 229px;
+  }
+  .arrivals {
+    height: 550px;
+  }
+
+  .ba {
+    height: 160px;
+    width: 180px;
+  }
+
+  .brush {
+    height: 270px;
+    width: 150px;
+    margin-top: 20px;
+    /* margin-right: 50px; */
+    /* margin-left: 50px; */
+  }
+
+  .next {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 1.1px;
+    left: 99px;
+  }
+}
+
+@media (max-width: 420px) {
+  .bodyContainer {
+    min-height: 1500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .introduce {
+    margin-top: 70px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mr {
+    height: 350px;
+    width: 370px;
+    margin-left: -20px;
+  }
+
+  .card {
+    background-color: #dadada;
+    box-shadow: 5px 8px 120px 8px rgb(0 0 0 / 25%);
+    height: 477px;
+    width: 380px;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-top: -350px;
   }
 
   .arrivals {
     height: 600px;
-    width: 100%;
+    width: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin-left: -310px;
+    margin-top: 300px;
   }
 
   .ba {
-    height: 240px;
-    width: 250px;
+    height: 170px;
+    width: 190px;
+    margin-left: -400px;
   }
 
   .brush {
-    height: 520px;
-    width: 350px;
+    height: 400px;
+    width: 250px;
     margin-top: 20px;
-    margin-right: 80px;
+    margin-right: 30px;
+    margin-left: 0px;
+    display: none;
   }
 
   .next {

@@ -1,25 +1,25 @@
 .firstProduct {
   margin-top: 0px;
-  margin-left: 210px;
+  margin-left: 170px;
   margin-right: 5px;
   cursor: pointer;
 }
 
 .secondProduct {
   margin-top: 0px;
-  margin-left: 110px;
+  margin-left: 90px;
   margin-right: 0px;
   cursor: pointer;
 }
 .thirdProduct {
   margin-top: 0px;
-  margin-left: 40px;
+  margin-left: 15px;
   margin-right: 0px;
   cursor: pointer;
 }
 .fourthProduct {
   margin-top: 0px;
-  margin-left: -60px;
+  margin-left: -55px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -47,5 +47,134 @@
 }
 
 .react-multiple-carousel__arrow {
-  z-index: 999;
+  margin-top: -100px;
+}
+
+@media (max-width: 1650px) {
+  .firstProduct {
+    margin-top: 0px;
+    margin-left: 125px;
+    margin-right: 5px;
+  }
+
+  .secondProduct {
+    margin-top: 0px;
+    margin-left: 66px;
+    margin-right: 0px;
+  }
+  .thirdProduct {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .fourthProduct {
+    margin-top: 0px;
+    margin-left: -45px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1500px) {
+  .firstProduct {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 5px;
+  }
+
+  .secondProduct {
+    margin-top: 0px;
+    margin-left: 55px;
+    margin-right: 0px;
+  }
+  .thirdProduct {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .fourthProduct {
+    margin-top: 0px;
+    margin-left: -35px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 1150px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+
+  .firstProduct {
+    margin: 0px;
+  }
+  .secondProduct {
+    margin: 0px;
+  }
+  .thirdProduct {
+    margin: 0px;
+  }
+  .fourthProduct {
+    margin: 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+
+  .firstProduct {
+    margin: 0px 5px 0px 5px;
+  }
+  .secondProduct {
+    margin: 0px 5px 0px 5px;
+  }
+  .thirdProduct {
+    margin: 0px 5px 0px 5px;
+  }
+  .fourthProduct {
+    margin: 0px 5px 0px 5px;
+  }
+}
+@media (max-width: 1010px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+
+  .firstProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .secondProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .thirdProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .fourthProduct {
+    margin: 0px 50px 0px 50px;
+  }
+}
+@media (max-width: 960px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+  .react-multi-carousel-dot-list {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+  .react-multi-carousel-dot-list {
+    display: none;
+  }
+  .firstProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .secondProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .thirdProduct {
+    margin: 0px 50px 0px 50px;
+  }
+  .fourthProduct {
+    margin: 0px 50px 0px 50px;
+  }
 }

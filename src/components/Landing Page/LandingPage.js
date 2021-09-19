@@ -11,12 +11,14 @@ import "./LandingPage.css";
 const LandingPage = () => {
   return (
     <React.Fragment>
-      <Hero />
-      <Body />
-      <Products />
-      <Discount />
-      <Portfolio />
-      <Footer />
+      <div className="container">
+        <Hero />
+        <Body />
+        <Products />
+        <Discount />
+        <Portfolio />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 };
