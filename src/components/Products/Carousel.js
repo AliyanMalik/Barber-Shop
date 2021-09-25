@@ -25,7 +25,7 @@ const ProductCarousel = () => {
       slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 500, min: 0 },
+      breakpoint: { max: 700, min: 0 },
       items: 1,
       slidesToSlide: 1, // optional, default to 1.
     },

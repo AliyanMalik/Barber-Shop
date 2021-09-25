@@ -27,6 +27,19 @@
   margin: 0px;
 }
 
-@media (max-width: 1400px) {
-
+@media (max-width: 800px) {
+  .productHead {
+    margin-top: 30px;
+  }
+  .productHeading {
+    font-size: 18px;
+  }
+  .productTitle {
+    margin-top: 25px;
+    margin-bottom: -75px;
+    font-size: 30px;
+  }
+  .productContainer {
+    margin-bottom: -50px;
+  }
 }

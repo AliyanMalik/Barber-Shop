@@ -9,6 +9,11 @@ import Next from "../../assets/next.svg";
 import "./Body.css";
 
 const Body = () => {
+  let style = {
+    width: `${window.innerWidth < 720 ? "100%" : "51%"}`,
+  };
+  console.log(style.width);
+
   return (
     <React.Fragment>
       <section className="bodyContainer">
@@ -30,7 +35,7 @@ const Body = () => {
             title="Mr.Bara Wooden Simple Shaving Brush"
             footer1="SHOP NOW"
             margin="310px"
-            width="51%"
+            width={style.width}
             src={Next}
             alt="src"
             className="next"

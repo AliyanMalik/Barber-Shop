@@ -34,3 +34,15 @@
     margin-top: 70px;
   }
 }
+@media (max-width: 550px) {
+  .image3,
+  .image4 {
+    display: none;
+  }
+  .portfolioTitle {
+    margin-top: 35px;
+  }
+  .images {
+    margin-top: 0px;
+  }
+}

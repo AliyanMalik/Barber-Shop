@@ -159,22 +159,4 @@
   }
 }
 @media (max-width: 600px) {
-  .react-multiple-carousel__arrow {
-    display: none;
-  }
-  .react-multi-carousel-dot-list {
-    display: none;
-  }
-  .firstProduct {
-    margin: 0px 50px 0px 50px;
-  }
-  .secondProduct {
-    margin: 0px 50px 0px 50px;
-  }
-  .thirdProduct {
-    margin: 0px 50px 0px 50px;
-  }
-  .fourthProduct {
-    margin: 0px 50px 0px 50px;
-  }
 }
