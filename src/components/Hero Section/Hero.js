@@ -49,7 +49,7 @@ const Hero = (props) => {
       window.scrollTo(0, `${window.innerWidth < 720 ? 2150 : 2990}`);
     }
     if (id === 3) {
-      window.scrollTo(0, `${window.innerWidth < 720 ? 3430 : 4400}`);
+      window.scrollTo(0, `${window.innerWidth < 720 ? 3350 : 4400}`);
     }
     if (id === 4) {
       window.scrollTo(0, `${window.innerWidth < 720 ? 4500 : 5200}`);

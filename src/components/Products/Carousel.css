@@ -158,5 +158,20 @@
     display: none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  .react-multi-carousel-item {
+    width: 10%;
+  }
+  .firstProduct {
+    margin: 0px 20px 0px 20px;
+  }
+  .secondProduct {
+    margin: 0px 20px 0px 20px;
+  }
+  .thirdProduct {
+    margin: 0px 20px 0px 20px;
+  }
+  .fourthProduct {
+    margin: 0px 20px 0px 20px;
+  }
 }

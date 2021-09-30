@@ -42,4 +42,7 @@
   .productContainer {
     margin-bottom: -50px;
   }
+  .carouselWrapper {
+    margin: 125px 45px 125px 50px;
+  }
 }
